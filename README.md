@@ -52,7 +52,3 @@ Juego clásico de "Tres en Raya" implementado con React y Vite.
 ├── package.json        # Scripts y dependencias
 └── README.md           # Documentación
 ```
-
-## 📌 Notas adicionales
-
-Este proyecto usa una configuración mínima para trabajar con React y Vite, con soporte HMR gracias a `@vitejs/plugin-react`. Si deseas ampliar la configuración de ESLint o migrar a TypeScript, puedes consultar la [plantilla oficial con TypeScript](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) y la guía de [`typescript-eslint`](https://typescript-eslint.io).
