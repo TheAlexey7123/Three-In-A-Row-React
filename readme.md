@@ -1,52 +1,48 @@
-Three-In-A-Row-React
+# Three-In-A-Row-React
+
 Juego clásico de "Tres en Raya" implementado con React y Vite.
 
-🧩 Características
-Interfaz interactiva desarrollada con React.
+## 🧩 Características
 
-Configuración moderna utilizando Vite.
+- Interfaz interactiva desarrollada con React.
+- Configuración moderna utilizando Vite.
+- Soporte para recarga en caliente (HMR) durante el desarrollo.
+- Arquitectura sencilla y fácil de mantener.
+- ESLint configurado para mantener la calidad del código.
 
-Soporte para recarga en caliente (HMR) durante el desarrollo.
+## 🚀 Instalación y ejecución
 
-Arquitectura sencilla y fácil de mantener.
+1. Clona el repositorio:
 
-ESLint configurado para mantener la calidad del código.
+   ```bash
+   git clone https://github.com/TheAlexey7123/Three-In-A-Row-React.git
+   cd Three-In-A-Row-React
+   ```
 
-🚀 Instalación y ejecución
-Clona el repositorio:
+2. Instala las dependencias:
 
-bash
-Copiar
-Editar
-git clone https://github.com/TheAlexey7123/Three-In-A-Row-React.git
-cd Three-In-A-Row-React
-Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-bash
-Copiar
-Editar
-npm install
-Inicia el servidor de desarrollo:
+3. Inicia el servidor de desarrollo:
 
-bash
-Copiar
-Editar
-npm run dev
-Abre tu navegador en http://localhost:5173 para jugar.
+   ```bash
+   npm run dev
+   ```
 
-🛠️ Tecnologías utilizadas
-React
+4. Abre tu navegador en `http://localhost:5173` para jugar.
 
-Vite
+## 🛠️ Tecnologías utilizadas
 
-@vitejs/plugin-react con soporte para Fast Refresh vía Babel
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) con soporte para Fast Refresh vía Babel
+- [ESLint](https://eslint.org/) para control de calidad del código
 
-ESLint para control de calidad del código
+## 📁 Estructura del proyecto
 
-📁 Estructura del proyecto
-bash
-Copiar
-Editar
+```bash
 ├── public/             # Archivos estáticos
 ├── src/                # Código fuente de la aplicación
 │   ├── components/     # Componentes reutilizables
@@ -55,3 +51,8 @@ Editar
 ├── vite.config.js      # Configuración de Vite y plugins
 ├── package.json        # Scripts y dependencias
 └── README.md           # Documentación
+```
+
+## 📌 Notas adicionales
+
+Este proyecto usa una configuración mínima para trabajar con React y Vite, con soporte HMR gracias a `@vitejs/plugin-react`. Si deseas ampliar la configuración de ESLint o migrar a TypeScript, puedes consultar la [plantilla oficial con TypeScript](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) y la guía de [`typescript-eslint`](https://typescript-eslint.io).
