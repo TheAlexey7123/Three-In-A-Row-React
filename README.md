@@ -43,12 +43,23 @@ Juego clásico de "Tres en Raya" implementado con React y Vite.
 ## 📁 Estructura del proyecto
 
 ```bash
-├── public/             # Archivos estáticos
-├── src/                # Código fuente de la aplicación
-│   ├── components/     # Componentes reutilizables
-│   └── App.jsx         # Componente principal
-├── index.html          # HTML principal
-├── vite.config.js      # Configuración de Vite y plugins
-├── package.json        # Scripts y dependencias
-└── README.md           # Documentación
+├── public/                 # Archivos estáticos
+├── src/                    # Código fuente de la aplicación
+│   ├── App.css
+│   ├── App.jsx             # Componente principal
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/         # Componentes reutilizables
+│   │   ├── Pointer.jsx
+│   │   ├── Square.jsx
+│   │   └── Winner.jsx
+│   ├── index.css
+│   ├── logic/              # Lógica del juego
+│   │   ├── board.js
+│   │   └── constants.js
+│   └── main.jsx            # Punto de entrada de la app
+├── index.html              # HTML principal
+├── vite.config.js          # Configuración de Vite y plugins
+├── package.json            # Scripts y dependencias
+└── README.md               # Documentación
 ```
